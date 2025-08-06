@@ -1,12 +1,4 @@
-# [WIP] typstudio
-
-> [!NOTE]
-> Typstudio is not actively maintained. I have not had time to actively maintain this project for the last year. The project will most likely be archived at some point in the foreseeable future.
->
-> For those who are looking for an offline alternative, I recommend [Tinymist](https://github.com/Myriad-Dreamin/tinymist).
-
-A W.I.P desktop application for a new markup-based typesetting language, [typst](https://github.com/typst/typst).
-Typstudio is built using [Tauri](https://tauri.app/).
+# typstudio
 
 ![](.github/assets/screenshot.png)
 
@@ -34,15 +26,12 @@ Typstudio does not have a stable release yet.
 
 ### Development Builds
 
-Development builds are provided in [releases](https://github.com/Cubxity/typstudio/releases).
+Development builds are provided in [releases](https://github.com/green960317/typstudio/releases).
 The builds support Linux (amd64), macOS (amd64, aarch64), and Windows (amd64).
 
 ### Packages
 
 **Unstable:**
-
-- AUR (maintained by [alerque](https://github.com/alerque)):
-  `typstudio` ([link](https://aur.archlinux.org/packages/typstudio))
 
 ### Note about running on macOS
 
@@ -76,15 +65,3 @@ pnpm tauri dev # or cargo-tauri dev
 ```bash
 pnpm tauri build # or cargo-tauri build
 ```
-
-### Learn more
-
-- [Tauri](https://tauri.app/v1/guides/)
-- [Rust](https://doc.rust-lang.org/book/)
-- [SvelteKit](https://kit.svelte.dev/docs/introduction) and [Svelte](https://svelte.dev/docs)
-- [Tailwind CSS](https://tailwindcss.com/docs)
-- [TypeScript](https://www.typescriptlang.org/docs/)
-
-## License
-
-Typstudio is licensed under [GPLv3](COPYING).
